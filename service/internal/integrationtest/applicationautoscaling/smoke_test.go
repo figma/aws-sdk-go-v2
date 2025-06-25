@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/service/applicationautoscaling"
-	"github.com/aws/aws-sdk-go-v2/service/applicationautoscaling/types"
+	"github.com/figma/aws-sdk-go-v2/service/applicationautoscaling"
+	"github.com/figma/aws-sdk-go-v2/service/applicationautoscaling/types"
 
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 )
 
 func TestInteg_00_DescribeScalableTargets(t *testing.T) {

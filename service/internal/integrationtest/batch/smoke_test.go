@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/service/batch"
+	"github.com/figma/aws-sdk-go-v2/service/batch"
 
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 )
 
 func TestInteg_00_DescribeComputeEnvironments(t *testing.T) {

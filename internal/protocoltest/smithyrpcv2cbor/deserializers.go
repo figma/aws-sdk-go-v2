@@ -5,7 +5,7 @@ package smithyrpcv2cbor
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/internal/protocoltest/smithyrpcv2cbor/types"
+	"github.com/figma/aws-sdk-go-v2/internal/protocoltest/smithyrpcv2cbor/types"
 	smithy "github.com/aws/smithy-go"
 	smithycbor "github.com/aws/smithy-go/encoding/cbor"
 	"github.com/aws/smithy-go/middleware"
