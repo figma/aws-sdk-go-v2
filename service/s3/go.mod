@@ -3,6 +3,7 @@ module github.com/figma/aws-sdk-go-v2/service/s3
 go 1.22
 
 require (
+	github.com/aws/smithy-go v1.22.4
 	github.com/figma/aws-sdk-go-v2 v1.36.5
 	github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream v1.6.11
 	github.com/figma/aws-sdk-go-v2/internal/configsources v1.3.36
@@ -12,7 +13,6 @@ require (
 	github.com/figma/aws-sdk-go-v2/service/internal/checksum v1.7.4
 	github.com/figma/aws-sdk-go-v2/service/internal/presigned-url v1.12.17
 	github.com/figma/aws-sdk-go-v2/service/internal/s3shared v1.18.17
-	github.com/aws/smithy-go v1.22.4
 )
 
 replace github.com/figma/aws-sdk-go-v2 => ../../

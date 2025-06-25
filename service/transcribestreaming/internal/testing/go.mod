@@ -3,11 +3,11 @@ module github.com/figma/aws-sdk-go-v2/service/transcribestreaming/internal/testi
 go 1.22
 
 require (
+	github.com/aws/smithy-go v1.22.4
 	github.com/figma/aws-sdk-go-v2 v1.36.5
 	github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream v1.6.11
 	github.com/figma/aws-sdk-go-v2/service/internal/eventstreamtesting v1.5.32
 	github.com/figma/aws-sdk-go-v2/service/transcribestreaming v1.26.2
-	github.com/aws/smithy-go v1.22.4
 )
 
 require (

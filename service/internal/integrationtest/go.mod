@@ -1,6 +1,7 @@
 module github.com/figma/aws-sdk-go-v2/service/internal/integrationtest
 
 require (
+	github.com/aws/smithy-go v1.22.4
 	github.com/figma/aws-sdk-go-v2 v1.36.5
 	github.com/figma/aws-sdk-go-v2/config v1.29.17
 	github.com/figma/aws-sdk-go-v2/feature/s3/manager v1.17.81
@@ -79,7 +80,6 @@ require (
 	github.com/figma/aws-sdk-go-v2/service/waf v1.26.4
 	github.com/figma/aws-sdk-go-v2/service/wafregional v1.26.4
 	github.com/figma/aws-sdk-go-v2/service/workspaces v1.57.2
-	github.com/aws/smithy-go v1.22.4
 )
 
 require (
