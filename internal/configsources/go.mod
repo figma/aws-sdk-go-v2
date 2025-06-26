@@ -1,4 +1,4 @@
-module github.com/aws/aws-sdk-go-v2/internal/configsources
+module github.com/figma/figma-sdk-go-v2internal/configsources
 
 go 1.22
 
