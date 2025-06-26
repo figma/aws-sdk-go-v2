@@ -1,4 +1,4 @@
-module github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream
+module github.com/figma/figma-sdk-go-v2aws/protocol/eventstream
 
 go 1.22
 
