@@ -15,7 +15,7 @@ import (
 	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
 	internalauth "github.com/aws/aws-sdk-go-v2/internal/auth"
 	internalauthsmithy "github.com/aws/aws-sdk-go-v2/internal/auth/smithy"
-	internalConfig "github.com/aws/aws-sdk-go-v2/internal/configsources"
+	internalConfig "github.com/figma/aws-sdk-go-v2/internal/configsources"
 	internalmiddleware "github.com/aws/aws-sdk-go-v2/internal/middleware"
 	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared"
 	s3sharedconfig "github.com/aws/aws-sdk-go-v2/service/internal/s3shared/config"

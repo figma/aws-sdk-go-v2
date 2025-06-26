@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream"
+	"github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream"
 	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi"
 	"github.com/aws/aws-sdk-go-v2/service/internal/eventstreamtesting"
 	"github.com/aws/aws-sdk-go-v2/service/transcribestreaming"
