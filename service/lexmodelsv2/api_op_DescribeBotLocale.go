@@ -5,12 +5,12 @@ package lexmodelsv2
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/lexmodelsv2/types"
-	"github.com/aws/smithy-go/middleware"
-	smithytime "github.com/aws/smithy-go/time"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
-	smithywaiter "github.com/aws/smithy-go/waiter"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/lexmodelsv2/types"
+	"github.com/figma/smithy-go/middleware"
+	smithytime "github.com/figma/smithy-go/time"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
+	smithywaiter "github.com/figma/smithy-go/waiter"
 	"time"
 )
 

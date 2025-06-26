@@ -4,16 +4,16 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds/internal/config"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds/internal/config"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func TestClientEndpoint(t *testing.T) {

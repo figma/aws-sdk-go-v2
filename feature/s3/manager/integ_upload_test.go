@@ -23,11 +23,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/feature/s3/manager"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
-	s3types "github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/feature/s3/manager"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
+	s3types "github.com/figma/aws-sdk-go-v2/service/s3/types"
+	"github.com/figma/smithy-go/middleware"
 )
 
 const crc64NVME = 0x9a6c_9329_ac4b_c9b5

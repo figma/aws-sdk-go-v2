@@ -4,9 +4,9 @@ package emr
 
 import (
 	"context"
-	smithy "github.com/aws/smithy-go"
-	smithyendpoints "github.com/aws/smithy-go/endpoints"
-	"github.com/aws/smithy-go/ptr"
+	smithy "github.com/figma/smithy-go"
+	smithyendpoints "github.com/figma/smithy-go/endpoints"
+	"github.com/figma/smithy-go/ptr"
 	"net/http"
 	"net/url"
 	"reflect"

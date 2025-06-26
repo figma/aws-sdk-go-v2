@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/transport/http"
 )
 
 // removeBucketFromPathMiddleware needs to be executed after serialize step is performed

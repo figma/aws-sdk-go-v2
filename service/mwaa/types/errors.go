@@ -4,8 +4,8 @@ package types
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/mwaa/document"
-	smithy "github.com/aws/smithy-go"
+	"github.com/figma/aws-sdk-go-v2/service/mwaa/document"
+	smithy "github.com/figma/smithy-go"
 )
 
 // Access to the Apache Airflow Web UI or CLI has been denied due to insufficient

@@ -2,11 +2,11 @@ package endpoints
 
 import (
 	"fmt"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/smithy-go/logging"
 	"regexp"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws"
 )
 
 // DefaultKey is a compound map key of a variant and other values.

@@ -5,11 +5,11 @@ package timestreamwrite
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	internalEndpointDiscovery "github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery"
-	"github.com/aws/aws-sdk-go-v2/service/timestreamwrite/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	internalEndpointDiscovery "github.com/figma/aws-sdk-go-v2/service/internal/endpoint-discovery"
+	"github.com/figma/aws-sdk-go-v2/service/timestreamwrite/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Enables you to write your time-series data into Timestream. You can specify a

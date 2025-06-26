@@ -6,11 +6,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	smithy "github.com/aws/smithy-go"
-	smithycbor "github.com/aws/smithy-go/encoding/cbor"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	smithycbor "github.com/figma/smithy-go/encoding/cbor"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 	"net/http"
 )
 

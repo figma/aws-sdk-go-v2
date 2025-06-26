@@ -1,7 +1,7 @@
 package customizations
 
 import (
-	"github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/transport/http"
 	"strings"
 )
 

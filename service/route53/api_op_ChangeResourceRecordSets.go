@@ -5,11 +5,11 @@ package route53
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	route53cust "github.com/aws/aws-sdk-go-v2/service/route53/internal/customizations"
-	"github.com/aws/aws-sdk-go-v2/service/route53/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	route53cust "github.com/figma/aws-sdk-go-v2/service/route53/internal/customizations"
+	"github.com/figma/aws-sdk-go-v2/service/route53/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Creates, changes, or deletes a resource record set, which contains

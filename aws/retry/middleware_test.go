@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
+	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
 
-	"github.com/aws/aws-sdk-go-v2/aws/ratelimit"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/aws/ratelimit"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func TestMetricsHeaderMiddleware(t *testing.T) {

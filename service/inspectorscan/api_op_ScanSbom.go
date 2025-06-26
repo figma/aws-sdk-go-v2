@@ -5,11 +5,11 @@ package inspectorscan
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/inspectorscan/document"
-	"github.com/aws/aws-sdk-go-v2/service/inspectorscan/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/inspectorscan/document"
+	"github.com/figma/aws-sdk-go-v2/service/inspectorscan/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Scans a provided CycloneDX 1.5 SBOM and reports on any vulnerabilities

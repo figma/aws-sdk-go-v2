@@ -5,7 +5,7 @@ package mediatailor
 import (
 	"context"
 	"errors"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 	"slices"
 	"strings"
 	"testing"

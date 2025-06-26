@@ -3,8 +3,8 @@ package awsutil_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/internal/awsutil"
-	"github.com/aws/smithy-go/ptr"
+	"github.com/figma/aws-sdk-go-v2/internal/awsutil"
+	"github.com/figma/smithy-go/ptr"
 )
 
 func TestDeepEqual(t *testing.T) {

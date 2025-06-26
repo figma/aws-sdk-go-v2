@@ -3,10 +3,10 @@ package checksum
 import (
 	"context"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws"
 
-	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
-	"github.com/aws/smithy-go/middleware"
+	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
+	"github.com/figma/smithy-go/middleware"
 )
 
 const (

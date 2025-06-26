@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/firehose"
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/smithy-go"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/service/firehose"
+	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/figma/smithy-go"
 )
 
 func TestInteg_00_ListDeliveryStreams(t *testing.T) {

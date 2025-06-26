@@ -15,14 +15,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
-	"github.com/aws/aws-sdk-go-v2/service/sso"
-	"github.com/aws/aws-sdk-go-v2/service/sts"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
-	smithytime "github.com/aws/smithy-go/time"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds"
+	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
+	"github.com/figma/aws-sdk-go-v2/service/sso"
+	"github.com/figma/aws-sdk-go-v2/service/sts"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
+	smithytime "github.com/figma/smithy-go/time"
 )
 
 func swapECSContainerURI(path string) func() {

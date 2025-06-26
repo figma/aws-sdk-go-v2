@@ -3,8 +3,8 @@ package s3
 import (
 	"context"
 
-	"github.com/aws/aws-sdk-go-v2/service/s3/internal/customizations"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/s3/internal/customizations"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // putBucketContextMiddleware stores the input bucket name within the request context (if
