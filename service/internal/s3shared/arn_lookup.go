@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 
-	"github.com/aws/aws-sdk-go-v2/aws/arn"
+	"github.com/figma/aws-sdk-go-v2/aws/arn"
 )
 
 // ARNLookup is the initial middleware that looks up if an arn is provided.

@@ -4,7 +4,7 @@ package types
 
 import (
 	"fmt"
-	smithy "github.com/aws/smithy-go"
+	smithy "github.com/figma/smithy-go"
 )
 
 // A service resource associated with the request could not be found. The resource

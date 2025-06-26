@@ -5,10 +5,10 @@ package cloudfront
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/cloudfront/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Add tags to a CloudFront resource. For more information, see [Tagging a distribution] in the Amazon

@@ -6,15 +6,15 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsarn "github.com/aws/aws-sdk-go-v2/aws/arn"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared"
-	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared/arn"
-	s3endpoints "github.com/aws/aws-sdk-go-v2/service/s3control/internal/endpoints/s3"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	awsarn "github.com/figma/aws-sdk-go-v2/aws/arn"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/internal/s3shared"
+	"github.com/figma/aws-sdk-go-v2/service/internal/s3shared/arn"
+	s3endpoints "github.com/figma/aws-sdk-go-v2/service/s3control/internal/endpoints/s3"
 )
 
 const (

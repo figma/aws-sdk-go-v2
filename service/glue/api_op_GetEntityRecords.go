@@ -5,10 +5,10 @@ package glue
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/glue/document"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/glue/document"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // This API is used to query preview data from a given connection type or from a

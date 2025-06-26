@@ -5,10 +5,10 @@ package comprehend
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/comprehend/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/comprehend/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Inspects a batch of documents and returns a sentiment analysis for each entity

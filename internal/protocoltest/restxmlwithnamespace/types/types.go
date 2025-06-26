@@ -3,7 +3,7 @@
 package types
 
 import (
-	smithydocument "github.com/aws/smithy-go/document"
+	smithydocument "github.com/figma/smithy-go/document"
 )
 
 type NestedWithNamespace struct {

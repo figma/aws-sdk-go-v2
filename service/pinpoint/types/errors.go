@@ -4,7 +4,7 @@ package types
 
 import (
 	"fmt"
-	smithy "github.com/aws/smithy-go"
+	smithy "github.com/figma/smithy-go"
 )
 
 // Provides information about an API request or response.

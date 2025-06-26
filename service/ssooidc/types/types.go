@@ -3,7 +3,7 @@
 package types
 
 import (
-	smithydocument "github.com/aws/smithy-go/document"
+	smithydocument "github.com/figma/smithy-go/document"
 )
 
 // This structure contains Amazon Web Services-specific parameter extensions for

@@ -5,10 +5,10 @@ package migrationhubrefactorspaces
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/migrationhubrefactorspaces/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/migrationhubrefactorspaces/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Lists Amazon Web Services Migration Hub Refactor Spaces environments owned by a

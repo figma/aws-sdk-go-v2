@@ -5,9 +5,9 @@ package cloudsearch
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/cloudsearch/types"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/cloudsearch/types"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type validateOpBuildSuggesters struct {

@@ -4,7 +4,7 @@ package types
 
 import (
 	"fmt"
-	smithy "github.com/aws/smithy-go"
+	smithy "github.com/figma/smithy-go"
 )
 
 // This error is thrown when a request is invalid.

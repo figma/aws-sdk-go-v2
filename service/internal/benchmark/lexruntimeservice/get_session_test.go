@@ -8,16 +8,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting/unit"
-	smithyClient "github.com/aws/aws-sdk-go-v2/service/lexruntimeservice"
-	v1Aws "github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	v1Creds "github.com/aws/aws-sdk-go/aws/credentials"
-	v1Request "github.com/aws/aws-sdk-go/aws/request"
-	v1Unit "github.com/aws/aws-sdk-go/awstesting/unit"
-	v1Client "github.com/aws/aws-sdk-go/service/lexruntimeservice"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/internal/awstesting/unit"
+	smithyClient "github.com/figma/aws-sdk-go-v2/service/lexruntimeservice"
+	v1Aws "github.com/figma/aws-sdk-go/aws"
+	"github.com/figma/aws-sdk-go/aws/corehandlers"
+	v1Creds "github.com/figma/aws-sdk-go/aws/credentials"
+	v1Request "github.com/figma/aws-sdk-go/aws/request"
+	v1Unit "github.com/figma/aws-sdk-go/awstesting/unit"
+	v1Client "github.com/figma/aws-sdk-go/service/lexruntimeservice"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func BenchmarkGetSession(b *testing.B) {

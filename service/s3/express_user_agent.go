@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/smithy-go/middleware"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // isExpressUserAgent tracks whether the caller is using S3 Express

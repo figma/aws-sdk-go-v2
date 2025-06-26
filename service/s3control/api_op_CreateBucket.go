@@ -5,12 +5,12 @@ package s3control
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	s3controlcust "github.com/aws/aws-sdk-go-v2/service/s3control/internal/customizations"
-	"github.com/aws/aws-sdk-go-v2/service/s3control/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
+	s3controlcust "github.com/figma/aws-sdk-go-v2/service/s3control/internal/customizations"
+	"github.com/figma/aws-sdk-go-v2/service/s3control/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // This action creates an Amazon S3 on Outposts bucket. To create an S3 bucket,

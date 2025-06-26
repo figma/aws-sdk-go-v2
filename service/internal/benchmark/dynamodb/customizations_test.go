@@ -13,14 +13,14 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting/unit"
-	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
-	awsOld "github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	credsOld "github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/session"
-	ddbOld "github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/figma/aws-sdk-go-v2/internal/awstesting/unit"
+	"github.com/figma/aws-sdk-go-v2/service/dynamodb"
+	awsOld "github.com/figma/aws-sdk-go/aws"
+	"github.com/figma/aws-sdk-go/aws/corehandlers"
+	credsOld "github.com/figma/aws-sdk-go/aws/credentials"
+	"github.com/figma/aws-sdk-go/aws/request"
+	"github.com/figma/aws-sdk-go/aws/session"
+	ddbOld "github.com/figma/aws-sdk-go/service/dynamodb"
 )
 
 type testData struct {

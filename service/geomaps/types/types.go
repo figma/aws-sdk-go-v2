@@ -3,7 +3,7 @@
 package types
 
 import (
-	smithydocument "github.com/aws/smithy-go/document"
+	smithydocument "github.com/figma/smithy-go/document"
 )
 
 // The input fails to satisfy the constraints specified by the Amazon Location

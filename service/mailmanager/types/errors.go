@@ -4,7 +4,7 @@ package types
 
 import (
 	"fmt"
-	smithy "github.com/aws/smithy-go"
+	smithy "github.com/figma/smithy-go"
 )
 
 // Occurs when a user is denied access to a specific resource or action.

@@ -3,8 +3,8 @@ package retry
 import (
 	"context"
 
-	"github.com/aws/smithy-go/metrics"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/metrics"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type attemptMetrics struct {

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws/protocol/query"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/aws/protocol/query"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // AddPresignSynthesizeSpeechMiddleware adds presignOpSynthesizeSpeechInput into middleware stack to

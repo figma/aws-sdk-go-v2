@@ -3,7 +3,7 @@
 package types
 
 import (
-	smithydocument "github.com/aws/smithy-go/document"
+	smithydocument "github.com/figma/smithy-go/document"
 )
 
 //	A model representing the state of a resource within an account according to

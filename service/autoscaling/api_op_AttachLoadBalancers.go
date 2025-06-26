@@ -5,9 +5,9 @@ package autoscaling
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // This API operation is superseded by [https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_AttachTrafficSources.html], which can attach multiple traffic sources

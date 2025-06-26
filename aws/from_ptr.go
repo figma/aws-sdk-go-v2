@@ -3,7 +3,7 @@
 package aws
 
 import (
-	"github.com/aws/smithy-go/ptr"
+	"github.com/figma/smithy-go/ptr"
 	"time"
 )
 

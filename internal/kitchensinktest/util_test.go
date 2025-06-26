@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws"
 )
 
 type mockHTTP struct {

@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func TestAddInputMiddleware(t *testing.T) {

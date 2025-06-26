@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // AddExpiresOnPresignedURL  represents a build middleware used to assign

@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/retry"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws/retry"
 
-	"github.com/aws/aws-sdk-go-v2/aws/middleware"
-	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
-	internalmiddleware "github.com/aws/aws-sdk-go-v2/internal/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	smithymiddleware "github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/aws/middleware"
+	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
+	internalmiddleware "github.com/figma/aws-sdk-go-v2/internal/middleware"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
+	smithymiddleware "github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 type httpClient interface {

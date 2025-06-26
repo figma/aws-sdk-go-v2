@@ -3,7 +3,7 @@
 package types
 
 import (
-	smithydocument "github.com/aws/smithy-go/document"
+	smithydocument "github.com/figma/smithy-go/document"
 )
 
 //	The data type for an attribute. Each attribute value is described as a

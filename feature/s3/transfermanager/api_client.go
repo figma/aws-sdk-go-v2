@@ -1,7 +1,7 @@
 package transfermanager
 
 import (
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws"
 )
 
 const userAgentKey = "s3-transfer"

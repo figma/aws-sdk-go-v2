@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/credentials/ssocreds"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	smithybearer "github.com/aws/smithy-go/auth/bearer"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/credentials/ssocreds"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
+	smithybearer "github.com/figma/smithy-go/auth/bearer"
 )
 
 func TestResolveBearerAuthToken(t *testing.T) {

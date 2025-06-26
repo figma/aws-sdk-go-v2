@@ -52,10 +52,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	v4Internal "github.com/aws/aws-sdk-go-v2/aws/signer/internal/v4"
-	"github.com/aws/smithy-go/encoding/httpbinding"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	v4Internal "github.com/figma/aws-sdk-go-v2/aws/signer/internal/v4"
+	"github.com/figma/smithy-go/encoding/httpbinding"
+	"github.com/figma/smithy-go/logging"
 )
 
 const (

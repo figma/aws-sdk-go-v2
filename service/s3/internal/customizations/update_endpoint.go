@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared"
-	internalendpoints "github.com/aws/aws-sdk-go-v2/service/s3/internal/endpoints"
-	"github.com/aws/smithy-go/encoding/httpbinding"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/internal/s3shared"
+	internalendpoints "github.com/figma/aws-sdk-go-v2/service/s3/internal/endpoints"
+	"github.com/figma/smithy-go/encoding/httpbinding"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // EndpointResolver interface for resolving service endpoints.

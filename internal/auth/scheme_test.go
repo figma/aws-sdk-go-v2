@@ -3,7 +3,7 @@ package auth
 import (
 	"testing"
 
-	smithy "github.com/aws/smithy-go"
+	smithy "github.com/figma/smithy-go"
 )
 
 func TestV4(t *testing.T) {
