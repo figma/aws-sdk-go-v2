@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.29.17
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.36
+	github.com/aws/aws-sdk-go-v2/internal/configsources internal/configsources/v1.3.36-alpha.0
 )
 
 require (
