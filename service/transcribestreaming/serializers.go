@@ -5,7 +5,7 @@ package transcribestreaming
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream"
+	"github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream"
 	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi"
 	"github.com/aws/aws-sdk-go-v2/service/transcribestreaming/types"
 	smithy "github.com/aws/smithy-go"
