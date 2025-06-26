@@ -18,8 +18,8 @@ import (
 	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
 	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
 	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	acceptencodingcust "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding"
-	presignedurlcust "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url"
+	acceptencodingcust "github.com/figma/aws-sdk-go-v2/service/internal/accept-encoding"
+	presignedurlcust "github.com/figma/aws-sdk-go-v2/service/internal/presigned-url"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

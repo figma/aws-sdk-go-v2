@@ -9,7 +9,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream"
+	"github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream"
 	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi"
 	awsxml "github.com/aws/aws-sdk-go-v2/aws/protocol/xml"
 	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared"
