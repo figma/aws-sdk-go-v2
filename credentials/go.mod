@@ -3,7 +3,7 @@ module github.com/aws/aws-sdk-go-v2/credentials
 go 1.22
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.36.5
+	github.com/aws/aws-sdk-go-v2 v1.36.5-figma.0
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.32
 	github.com/aws/aws-sdk-go-v2/service/sso v1.25.5
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.3

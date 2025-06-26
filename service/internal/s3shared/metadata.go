@@ -3,7 +3,7 @@ package s3shared
 import (
 	"context"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // clonedInputKey used to denote if request input was cloned.

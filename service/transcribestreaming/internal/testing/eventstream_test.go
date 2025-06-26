@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream"
-	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi"
-	"github.com/aws/aws-sdk-go-v2/service/internal/eventstreamtesting"
-	"github.com/aws/aws-sdk-go-v2/service/transcribestreaming"
-	"github.com/aws/aws-sdk-go-v2/service/transcribestreaming/types"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream"
+	"github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi"
+	"github.com/figma/aws-sdk-go-v2/service/internal/eventstreamtesting"
+	"github.com/figma/aws-sdk-go-v2/service/transcribestreaming"
+	"github.com/figma/aws-sdk-go-v2/service/transcribestreaming/types"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
 )
 
 func removeValidationMiddleware(stack *middleware.Stack) error {

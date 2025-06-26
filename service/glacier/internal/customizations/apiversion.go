@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 const glacierAPIVersionHeaderKey = "X-Amz-Glacier-Version"

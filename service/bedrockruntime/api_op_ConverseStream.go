@@ -5,11 +5,11 @@ package bedrockruntime
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/document"
-	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime/types"
-	"github.com/aws/smithy-go/middleware"
-	smithysync "github.com/aws/smithy-go/sync"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/bedrockruntime/document"
+	"github.com/figma/aws-sdk-go-v2/service/bedrockruntime/types"
+	"github.com/figma/smithy-go/middleware"
+	smithysync "github.com/figma/smithy-go/sync"
 	"sync"
 )
 

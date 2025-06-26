@@ -6,12 +6,12 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/encoding/httpbinding"
-	smithyjson "github.com/aws/smithy-go/encoding/json"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/encoding/httpbinding"
+	smithyjson "github.com/figma/smithy-go/encoding/json"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 type awsRestjson1_serializeOpApplyPendingMaintenanceAction struct {

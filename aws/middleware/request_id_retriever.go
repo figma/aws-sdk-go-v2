@@ -3,9 +3,9 @@ package middleware
 import (
 	"context"
 
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // AddRequestIDRetrieverMiddleware adds request id retriever middleware

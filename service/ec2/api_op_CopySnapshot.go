@@ -5,12 +5,12 @@ package ec2
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
-	presignedurlcust "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
+	"github.com/figma/aws-sdk-go-v2/service/ec2/types"
+	presignedurlcust "github.com/figma/aws-sdk-go-v2/service/internal/presigned-url"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Copies a point-in-time snapshot of an EBS volume and stores it in Amazon S3.

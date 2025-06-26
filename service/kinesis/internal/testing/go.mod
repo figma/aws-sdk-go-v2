@@ -3,7 +3,7 @@ module github.com/aws/aws-sdk-go-v2/service/kinesis/internal/testing
 go 1.22
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.36.5
+	github.com/aws/aws-sdk-go-v2 v1.36.5-figma.0
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.11
 	github.com/aws/aws-sdk-go-v2/service/internal/eventstreamtesting v1.5.32
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.35.3

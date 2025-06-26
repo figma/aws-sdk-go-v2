@@ -5,11 +5,11 @@ package securityhub
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/securityhub/document"
-	"github.com/aws/aws-sdk-go-v2/service/securityhub/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/securityhub/document"
+	"github.com/figma/aws-sdk-go-v2/service/securityhub/types"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Return a list of findings that match the specified criteria. GetFindings and

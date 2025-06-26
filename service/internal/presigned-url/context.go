@@ -3,7 +3,7 @@ package presignedurl
 import (
 	"context"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // WithIsPresigning adds the isPresigning sentinel value to a context to signal

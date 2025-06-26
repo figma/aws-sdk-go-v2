@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/smithy-go/middleware"
-	smithyHTTP "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
+	"github.com/figma/smithy-go/middleware"
+	smithyHTTP "github.com/figma/smithy-go/transport/http"
 )
 
 // HTTPPresigner is an interface to a SigV4 signer that can sign create a

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // AddTreeHashMiddleware adds middleware needed to automatically

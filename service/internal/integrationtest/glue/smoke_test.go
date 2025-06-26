@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/service/glue"
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/figma/aws-sdk-go-v2/service/glue"
+	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 )
 
 func TestInteg_00_GetCatalogImportStatus(t *testing.T) {

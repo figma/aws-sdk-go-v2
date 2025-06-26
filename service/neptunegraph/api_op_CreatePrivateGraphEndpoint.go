@@ -5,11 +5,11 @@ package neptunegraph
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/neptunegraph/types"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/neptunegraph/types"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Create a private graph endpoint to allow private access from to the graph from

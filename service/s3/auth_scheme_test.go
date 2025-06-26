@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/auth"
-	smithyauth "github.com/aws/smithy-go/auth"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/auth"
+	smithyauth "github.com/figma/smithy-go/auth"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // FUTURE: move to smithy-go, see https://github.com/aws/smithy-go/issues/528

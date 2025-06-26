@@ -5,8 +5,8 @@ package document
 import (
 	"bytes"
 	"encoding/json"
-	smithydocument "github.com/aws/smithy-go/document"
-	smithydocumentjson "github.com/aws/smithy-go/document/json"
+	smithydocument "github.com/figma/smithy-go/document"
+	smithydocumentjson "github.com/figma/smithy-go/document/json"
 )
 
 // github.com/aws/aws-sdk-go-v2/service/bedrockruntime/internal/document.smithyDocument

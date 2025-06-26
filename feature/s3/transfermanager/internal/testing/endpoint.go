@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/aws/aws-sdk-go-v2/service/s3"
-	smithyendpoints "github.com/aws/smithy-go/endpoints"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
+	smithyendpoints "github.com/figma/smithy-go/endpoints"
 )
 
 // EndpointResolverV2 is a mock s3 endpoint resolver v2 for testing

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type s3BackendKey struct{}

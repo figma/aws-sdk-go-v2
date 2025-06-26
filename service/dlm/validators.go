@@ -5,9 +5,9 @@ package dlm
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/dlm/types"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/dlm/types"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type validateOpCreateLifecyclePolicy struct {

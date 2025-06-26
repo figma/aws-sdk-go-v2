@@ -3,7 +3,7 @@
 package document
 
 import (
-	smithydocument "github.com/aws/smithy-go/document"
+	smithydocument "github.com/figma/smithy-go/document"
 )
 
 var _ smithyDocument = (Interface)(nil)

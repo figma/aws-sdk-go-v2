@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	smithyClient "github.com/aws/aws-sdk-go-v2/service/lexruntimeservice"
-	"github.com/aws/smithy-go/middleware"
+	smithyClient "github.com/figma/aws-sdk-go-v2/service/lexruntimeservice"
+	"github.com/figma/smithy-go/middleware"
 )
 
 var (

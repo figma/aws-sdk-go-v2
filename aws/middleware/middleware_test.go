@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/rand"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	smithymiddleware "github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/internal/rand"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
+	smithymiddleware "github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func TestClientRequestID(t *testing.T) {

@@ -4,11 +4,11 @@ package s3control
 
 import (
 	"context"
-	smithy "github.com/aws/smithy-go"
-	smithyauth "github.com/aws/smithy-go/auth"
-	smithyendpoints "github.com/aws/smithy-go/endpoints"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	smithyauth "github.com/figma/smithy-go/auth"
+	smithyendpoints "github.com/figma/smithy-go/endpoints"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 	"net/http"
 	"net/url"
 	"reflect"

@@ -3,8 +3,8 @@
 package types
 
 import (
-	"github.com/aws/aws-sdk-go-v2/service/qapps/document"
-	smithydocument "github.com/aws/smithy-go/document"
+	"github.com/figma/aws-sdk-go-v2/service/qapps/document"
+	smithydocument "github.com/figma/smithy-go/document"
 	"time"
 )
 

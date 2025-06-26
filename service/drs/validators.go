@@ -5,9 +5,9 @@ package drs
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/drs/types"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/drs/types"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type validateOpAssociateSourceNetworkStack struct {
