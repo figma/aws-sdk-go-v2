@@ -21,7 +21,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
 	"github.com/figma/aws-sdk-go-v2/service/sts"
 	"github.com/figma/aws-sdk-go-v2/service/sts/types"
-	smithytime "github.com/aws/smithy-go/time"
+	smithytime "github.com/figma/smithy-go/time"
 )
 
 // HTTPClient implementation that captures the User-Agent header and

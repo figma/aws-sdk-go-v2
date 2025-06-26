@@ -7,8 +7,8 @@ import (
 	"fmt"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/servicecatalogappregistry/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Lists all attribute groups which you have access to. Results are paginated.

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/rekognition/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Compares a face in the source input image with each of the 100 largest faces

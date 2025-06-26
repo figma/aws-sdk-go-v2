@@ -9,11 +9,11 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/aws/smithy-go"
-	smithyxml "github.com/aws/smithy-go/encoding/xml"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go"
+	smithyxml "github.com/figma/smithy-go/encoding/xml"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 
 	awsmiddle "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/route53/types"

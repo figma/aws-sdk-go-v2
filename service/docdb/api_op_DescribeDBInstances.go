@@ -8,11 +8,11 @@ import (
 	"fmt"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/docdb/types"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
-	smithytime "github.com/aws/smithy-go/time"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
-	smithywaiter "github.com/aws/smithy-go/waiter"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
+	smithytime "github.com/figma/smithy-go/time"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
+	smithywaiter "github.com/figma/smithy-go/waiter"
 	"time"
 )
 

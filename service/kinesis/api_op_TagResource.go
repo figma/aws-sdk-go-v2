@@ -6,9 +6,9 @@ import (
 	"context"
 	"fmt"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Adds or updates tags for the specified Kinesis resource. Each tag is a label

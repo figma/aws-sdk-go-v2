@@ -6,12 +6,12 @@ import (
 	"context"
 	"fmt"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
-	smithy "github.com/aws/smithy-go"
-	smithyauth "github.com/aws/smithy-go/auth"
-	"github.com/aws/smithy-go/metrics"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	smithyauth "github.com/figma/smithy-go/auth"
+	"github.com/figma/smithy-go/metrics"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func bindAuthParamsRegion(_ interface{}, params *AuthResolverParameters, _ interface{}, options Options) {

@@ -13,7 +13,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/service/iot"
 
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 )
 
 func TestInteg_00_ListPolicies(t *testing.T) {

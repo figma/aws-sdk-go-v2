@@ -9,8 +9,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
 	presignedurlcust "github.com/figma/aws-sdk-go-v2/service/internal/presigned-url"
 	"github.com/figma/aws-sdk-go-v2/service/rds/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Creates a new Amazon Aurora DB cluster or Multi-AZ DB cluster.

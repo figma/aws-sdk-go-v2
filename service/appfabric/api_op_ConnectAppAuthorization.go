@@ -7,8 +7,8 @@ import (
 	"fmt"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/appfabric/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Establishes a connection between Amazon Web Services AppFabric and an

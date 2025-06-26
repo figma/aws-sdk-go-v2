@@ -15,7 +15,7 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/internal/v4a/internal/crypto"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/smithy-go/logging"
 )
 
 const (

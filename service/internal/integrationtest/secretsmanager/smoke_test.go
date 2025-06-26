@@ -12,7 +12,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 	"github.com/figma/aws-sdk-go-v2/service/secretsmanager"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 )
 
 func TestInteg_00_ListSecrets(t *testing.T) {

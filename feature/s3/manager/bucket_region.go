@@ -8,8 +8,8 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/service/s3"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 const bucketRegionHeader = "X-Amz-Bucket-Region"

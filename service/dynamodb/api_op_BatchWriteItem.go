@@ -8,8 +8,8 @@ import (
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/dynamodb/types"
 	internalEndpointDiscovery "github.com/figma/aws-sdk-go-v2/service/internal/endpoint-discovery"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // The BatchWriteItem operation puts or deletes multiple items in one or more

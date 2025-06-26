@@ -6,8 +6,8 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	internalauthsmithy "github.com/figma/aws-sdk-go-v2/internal/auth/smithy"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/auth"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/auth"
 )
 
 // S3ExpressCredentialsProvider retrieves credentials for the S3Express storage

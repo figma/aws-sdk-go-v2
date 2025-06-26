@@ -15,8 +15,8 @@ import (
 	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
 	internalmiddleware "github.com/figma/aws-sdk-go-v2/internal/middleware"
 	"github.com/figma/aws-sdk-go-v2/internal/sdk"
-	smithymiddleware "github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithymiddleware "github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 type httpClient interface {

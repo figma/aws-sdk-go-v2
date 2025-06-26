@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/figma/aws-sdk-go-v2/service/dynamodbstreams/types"
-	smithyjson "github.com/aws/smithy-go/encoding/json"
+	smithyjson "github.com/figma/smithy-go/encoding/json"
 )
 
 func awsAwsjson10DeserializeDocumentAttributeValue(v *types.AttributeValue, value interface{}) error {

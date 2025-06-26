@@ -5,7 +5,7 @@ package endpoints
 import (
 	"github.com/figma/aws-sdk-go-v2/aws"
 	endpoints "github.com/figma/aws-sdk-go-v2/internal/endpoints/v2"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/smithy-go/logging"
 	"regexp"
 )
 

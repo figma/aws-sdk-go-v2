@@ -13,7 +13,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/service/cloudfront"
 
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 )
 
 func TestInteg_00_ListCloudFrontOriginAccessIdentities(t *testing.T) {

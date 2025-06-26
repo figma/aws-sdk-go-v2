@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"testing"
 
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/encoding/cbor"
-	"github.com/aws/smithy-go/middleware"
-	smithyprivateprotocol "github.com/aws/smithy-go/private/protocol"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/encoding/cbor"
+	"github.com/figma/smithy-go/middleware"
+	smithyprivateprotocol "github.com/figma/smithy-go/private/protocol"
 )
 
 // Implements awsQuery-compatible SEP tests

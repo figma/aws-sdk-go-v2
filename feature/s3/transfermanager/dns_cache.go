@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/smithy-go/container/private/cache"
-	"github.com/aws/smithy-go/container/private/cache/lru"
+	"github.com/figma/smithy-go/container/private/cache"
+	"github.com/figma/smithy-go/container/private/cache/lru"
 )
 
 // dnsCache implements an LRU cache of DNS query results by host.

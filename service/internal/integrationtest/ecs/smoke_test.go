@@ -11,7 +11,7 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/service/ecs"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 )

@@ -6,7 +6,7 @@ import (
 
 	awsarn "github.com/figma/aws-sdk-go-v2/aws/arn"
 	s3arn "github.com/figma/aws-sdk-go-v2/service/internal/s3shared/arn"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type updateOutpostARN struct {

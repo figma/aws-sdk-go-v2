@@ -10,9 +10,9 @@ import (
 	"fmt"
 
 	"github.com/figma/aws-sdk-go-v2/aws"
-	smithy "github.com/aws/smithy-go"
-	smithyauth "github.com/aws/smithy-go/auth"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	smithyauth "github.com/figma/smithy-go/auth"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 type endpointAuthResolver struct {

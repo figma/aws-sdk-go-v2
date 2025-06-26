@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/figma/aws-sdk-go-v2/service/ssoadmin/types"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type validateOpAttachCustomerManagedPolicyReferenceToPermissionSet struct {

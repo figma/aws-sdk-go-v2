@@ -12,7 +12,7 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/aws/ratelimit"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 var _ aws.Retryer = (*Standard)(nil)

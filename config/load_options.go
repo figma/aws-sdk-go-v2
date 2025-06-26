@@ -11,9 +11,9 @@ import (
 	"github.com/figma/aws-sdk-go-v2/credentials/ssocreds"
 	"github.com/figma/aws-sdk-go-v2/credentials/stscreds"
 	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds"
-	smithybearer "github.com/aws/smithy-go/auth/bearer"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
+	smithybearer "github.com/figma/smithy-go/auth/bearer"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // LoadOptionsFunc is a type alias for LoadOptions functional option

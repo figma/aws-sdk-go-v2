@@ -14,9 +14,9 @@ import (
 	"github.com/figma/aws-sdk-go-v2/internal/v4a"
 	"github.com/figma/aws-sdk-go-v2/service/s3"
 	"github.com/figma/aws-sdk-go-v2/service/s3/internal/endpoints"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 type s3BucketTest struct {

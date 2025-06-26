@@ -9,8 +9,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
 	s3cust "github.com/figma/aws-sdk-go-v2/service/s3/internal/customizations"
 	"github.com/figma/aws-sdk-go-v2/service/s3/types"
-	"github.com/aws/smithy-go/middleware"
-	smithysync "github.com/aws/smithy-go/sync"
+	"github.com/figma/smithy-go/middleware"
+	smithysync "github.com/figma/smithy-go/sync"
 	"sync"
 )
 

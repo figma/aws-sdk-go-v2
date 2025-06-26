@@ -14,9 +14,9 @@ import (
 	v4Internal "github.com/figma/aws-sdk-go-v2/aws/signer/internal/v4"
 	internalauth "github.com/figma/aws-sdk-go-v2/internal/auth"
 	"github.com/figma/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 const computePayloadHashMiddlewareID = "ComputePayloadHash"

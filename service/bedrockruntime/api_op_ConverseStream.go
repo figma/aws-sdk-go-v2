@@ -8,8 +8,8 @@ import (
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/bedrockruntime/document"
 	"github.com/figma/aws-sdk-go-v2/service/bedrockruntime/types"
-	"github.com/aws/smithy-go/middleware"
-	smithysync "github.com/aws/smithy-go/sync"
+	"github.com/figma/smithy-go/middleware"
+	smithysync "github.com/figma/smithy-go/sync"
 	"sync"
 )
 

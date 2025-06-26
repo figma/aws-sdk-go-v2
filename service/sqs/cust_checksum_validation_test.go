@@ -8,8 +8,8 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	sqstypes "github.com/figma/aws-sdk-go-v2/service/sqs/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func TestValidateSendMessageChecksum(t *testing.T) {

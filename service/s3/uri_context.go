@@ -6,7 +6,7 @@ package s3
 import (
 	"context"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type s3resolvedURI struct{}

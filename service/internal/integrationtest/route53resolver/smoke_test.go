@@ -12,7 +12,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 	"github.com/figma/aws-sdk-go-v2/service/route53resolver"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 )
 
 func TestInteg_00_ListResolverEndpoints(t *testing.T) {

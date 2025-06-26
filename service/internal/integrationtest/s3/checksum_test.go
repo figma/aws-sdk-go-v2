@@ -16,7 +16,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/service/s3"
 	"github.com/figma/aws-sdk-go-v2/service/s3/types"
 	s3types "github.com/figma/aws-sdk-go-v2/service/s3/types"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/smithy-go/logging"
 )
 
 type retryClient struct {

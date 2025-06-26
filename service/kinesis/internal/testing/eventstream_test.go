@@ -14,8 +14,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/service/internal/eventstreamtesting"
 	"github.com/figma/aws-sdk-go-v2/service/kinesis"
 	"github.com/figma/aws-sdk-go-v2/service/kinesis/types"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
 )
 
 func removeValidationMiddleware(stack *middleware.Stack) error {

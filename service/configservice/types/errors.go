@@ -4,7 +4,7 @@ package types
 
 import (
 	"fmt"
-	smithy "github.com/aws/smithy-go"
+	smithy "github.com/figma/smithy-go"
 )
 
 // For [PutServiceLinkedConfigurationRecorder], you cannot create a service-linked recorder because a service-linked

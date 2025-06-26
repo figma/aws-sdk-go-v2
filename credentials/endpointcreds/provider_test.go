@@ -14,7 +14,7 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/credentials/endpointcreds"
 	"github.com/figma/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 )
 
 type mockClient func(*http.Request) (*http.Response, error)

@@ -6,7 +6,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws"
 
 	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // AddTimeOffsetMiddleware sets a value representing clock skew on the request context.

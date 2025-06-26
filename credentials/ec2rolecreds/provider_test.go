@@ -16,9 +16,9 @@ import (
 	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds"
 	sdkrand "github.com/figma/aws-sdk-go-v2/internal/rand"
 	"github.com/figma/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/middleware"
 )
 
 const credsRespTmpl = `{

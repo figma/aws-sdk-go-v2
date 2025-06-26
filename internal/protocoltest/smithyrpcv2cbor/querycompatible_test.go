@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/smithy-go/middleware"
-	smithyprivateprotocol "github.com/aws/smithy-go/private/protocol"
+	"github.com/figma/smithy-go/middleware"
+	smithyprivateprotocol "github.com/figma/smithy-go/private/protocol"
 )
 
 type mockHTTP struct{}

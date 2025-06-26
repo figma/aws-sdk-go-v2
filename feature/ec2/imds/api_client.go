@@ -13,10 +13,10 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws/retry"
 	awshttp "github.com/figma/aws-sdk-go-v2/aws/transport/http"
 	internalconfig "github.com/figma/aws-sdk-go-v2/feature/ec2/imds/internal/config"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // ServiceID provides the unique name of this API client

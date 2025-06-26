@@ -13,8 +13,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 	"github.com/figma/aws-sdk-go-v2/service/marketplacecommerceanalytics"
 	"github.com/figma/aws-sdk-go-v2/service/marketplacecommerceanalytics/types"
-	"github.com/aws/smithy-go"
-	smithytime "github.com/aws/smithy-go/time"
+	"github.com/figma/smithy-go"
+	smithytime "github.com/figma/smithy-go/time"
 )
 
 func TestInteg_00_GenerateDataSet(t *testing.T) {

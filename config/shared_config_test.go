@@ -14,8 +14,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds"
 	"github.com/figma/aws-sdk-go-v2/internal/ini"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/ptr"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/ptr"
 )
 
 var _ regionProvider = (*SharedConfig)(nil)

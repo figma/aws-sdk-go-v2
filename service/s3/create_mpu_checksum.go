@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // backfills checksum algorithm onto the context for CreateMultipart upload so

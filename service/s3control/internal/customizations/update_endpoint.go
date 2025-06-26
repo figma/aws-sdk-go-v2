@@ -1,7 +1,7 @@
 package customizations
 
 import (
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/service/internal/s3shared"

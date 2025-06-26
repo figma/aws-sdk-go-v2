@@ -8,8 +8,8 @@ import (
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/dynamodb/types"
 	internalEndpointDiscovery "github.com/figma/aws-sdk-go-v2/service/internal/endpoint-discovery"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Edits an existing item's attributes, or adds a new item to the table if it does

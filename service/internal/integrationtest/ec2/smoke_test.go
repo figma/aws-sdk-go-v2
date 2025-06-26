@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/figma/aws-sdk-go-v2/service/ec2"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 )

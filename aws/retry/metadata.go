@@ -2,7 +2,7 @@ package retry
 
 import (
 	awsmiddle "github.com/figma/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // attemptResultsKey is a metadata accessor key to retrieve metadata

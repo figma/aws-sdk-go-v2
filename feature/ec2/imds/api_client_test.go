@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 func TestClientEndpoint(t *testing.T) {

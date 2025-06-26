@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/figma/aws-sdk-go-v2/internal/awsutil"
-	"github.com/aws/smithy-go/ptr"
+	"github.com/figma/smithy-go/ptr"
 )
 
 type testStruct struct {

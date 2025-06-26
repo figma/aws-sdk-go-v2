@@ -13,7 +13,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/service/cloudtrail"
 
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 )
 
 func TestInteg_00_DescribeTrails(t *testing.T) {

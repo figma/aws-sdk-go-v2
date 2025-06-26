@@ -4,7 +4,7 @@ package types
 
 import (
 	"github.com/figma/aws-sdk-go-v2/service/identitystore/document"
-	smithydocument "github.com/aws/smithy-go/document"
+	smithydocument "github.com/figma/smithy-go/document"
 )
 
 // The address associated with the specified user.

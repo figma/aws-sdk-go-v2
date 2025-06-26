@@ -7,9 +7,9 @@ import (
 	"fmt"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/service/cloudwatchlogs/types"
-	"github.com/aws/smithy-go/middleware"
-	smithysync "github.com/aws/smithy-go/sync"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithysync "github.com/figma/smithy-go/sync"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 	"sync"
 )
 

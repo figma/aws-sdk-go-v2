@@ -1,7 +1,7 @@
 package s3shared
 
 import (
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // hostID is used to retrieve host id from response metadata

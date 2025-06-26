@@ -8,10 +8,10 @@ import (
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 
 	"github.com/figma/aws-sdk-go-v2/internal/endpoints/awsrulesfn"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/encoding/httpbinding"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/encoding/httpbinding"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // serializeImmutableHostnameBucketMiddleware handles injecting the bucket name into

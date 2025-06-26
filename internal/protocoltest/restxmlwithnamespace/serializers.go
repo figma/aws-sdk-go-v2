@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 	"github.com/figma/aws-sdk-go-v2/internal/protocoltest/restxmlwithnamespace/types"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/encoding/httpbinding"
-	smithyxml "github.com/aws/smithy-go/encoding/xml"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/encoding/httpbinding"
+	smithyxml "github.com/figma/smithy-go/encoding/xml"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 	"math"
 )
 

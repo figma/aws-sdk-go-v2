@@ -6,10 +6,10 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/middleware"
 )
 
 // DiscoverEndpointOptions are optionals used with DiscoverEndpoint operation.

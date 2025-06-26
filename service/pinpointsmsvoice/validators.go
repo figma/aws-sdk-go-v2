@@ -5,8 +5,8 @@ package pinpointsmsvoice
 import (
 	"context"
 	"fmt"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type validateOpCreateConfigurationSetEventDestination struct {

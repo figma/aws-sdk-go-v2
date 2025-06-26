@@ -14,7 +14,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/internal/awsutil"
 	"github.com/figma/aws-sdk-go-v2/service/s3"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/smithy-go/logging"
 )
 
 const userAgentKey = "s3-transfer"

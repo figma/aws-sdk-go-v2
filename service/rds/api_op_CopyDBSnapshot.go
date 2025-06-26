@@ -9,8 +9,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
 	presignedurlcust "github.com/figma/aws-sdk-go-v2/service/internal/presigned-url"
 	"github.com/figma/aws-sdk-go-v2/service/rds/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Copies the specified DB snapshot. The source DB snapshot must be in the

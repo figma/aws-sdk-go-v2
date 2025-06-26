@@ -18,9 +18,9 @@ import (
 
 	v4 "github.com/figma/aws-sdk-go-v2/aws/signer/v4"
 	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // TODO test cases:

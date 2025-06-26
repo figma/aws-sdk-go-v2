@@ -16,8 +16,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds"
 	"github.com/figma/aws-sdk-go-v2/internal/ini"
 	"github.com/figma/aws-sdk-go-v2/internal/shareddefaults"
-	"github.com/aws/smithy-go/logging"
-	smithyrequestcompression "github.com/aws/smithy-go/private/requestcompression"
+	"github.com/figma/smithy-go/logging"
+	smithyrequestcompression "github.com/figma/smithy-go/private/requestcompression"
 )
 
 const (

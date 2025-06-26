@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 	"github.com/figma/aws-sdk-go-v2/service/m2/types"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/encoding/httpbinding"
-	smithyjson "github.com/aws/smithy-go/encoding/json"
-	"github.com/aws/smithy-go/middleware"
-	smithytime "github.com/aws/smithy-go/time"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/encoding/httpbinding"
+	smithyjson "github.com/figma/smithy-go/encoding/json"
+	"github.com/figma/smithy-go/middleware"
+	smithytime "github.com/figma/smithy-go/time"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 type awsRestjson1_serializeOpCancelBatchJobExecution struct {

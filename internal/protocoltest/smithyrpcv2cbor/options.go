@@ -4,12 +4,12 @@ package smithyrpcv2cbor
 
 import (
 	"github.com/figma/aws-sdk-go-v2/aws"
-	smithyauth "github.com/aws/smithy-go/auth"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/metrics"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithyauth "github.com/figma/smithy-go/auth"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/metrics"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 	"net/http"
 )
 

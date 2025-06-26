@@ -9,10 +9,10 @@ import (
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	glaciercust "github.com/figma/aws-sdk-go-v2/service/glacier/internal/customizations"
 	"github.com/figma/aws-sdk-go-v2/service/glacier/types"
-	"github.com/aws/smithy-go/middleware"
-	smithytime "github.com/aws/smithy-go/time"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
-	smithywaiter "github.com/aws/smithy-go/waiter"
+	"github.com/figma/smithy-go/middleware"
+	smithytime "github.com/figma/smithy-go/time"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
+	smithywaiter "github.com/figma/smithy-go/waiter"
 	"time"
 )
 

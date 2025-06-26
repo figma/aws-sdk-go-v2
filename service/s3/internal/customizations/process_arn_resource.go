@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/transport/http"
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"

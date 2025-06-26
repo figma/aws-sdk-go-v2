@@ -11,12 +11,12 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
 	s3cust "github.com/figma/aws-sdk-go-v2/service/s3/internal/customizations"
 	"github.com/figma/aws-sdk-go-v2/service/s3/types"
-	smithy "github.com/aws/smithy-go"
-	smithyxml "github.com/aws/smithy-go/encoding/xml"
-	smithyio "github.com/aws/smithy-go/io"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithy "github.com/figma/smithy-go"
+	smithyxml "github.com/figma/smithy-go/encoding/xml"
+	smithyio "github.com/figma/smithy-go/io"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 	"io"
 )
 

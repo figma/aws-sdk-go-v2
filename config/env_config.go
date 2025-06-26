@@ -11,7 +11,7 @@ import (
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds"
-	smithyrequestcompression "github.com/aws/smithy-go/private/requestcompression"
+	smithyrequestcompression "github.com/figma/smithy-go/private/requestcompression"
 )
 
 // CredentialsSourceName provides a name of the provider when config is

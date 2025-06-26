@@ -6,7 +6,7 @@ import (
 
 	ictx "github.com/figma/aws-sdk-go-v2/internal/context"
 	"github.com/figma/aws-sdk-go-v2/service/internal/checksum"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/figma/smithy-go/middleware"
 )
 
 type expressDefaultChecksumMiddleware struct{}

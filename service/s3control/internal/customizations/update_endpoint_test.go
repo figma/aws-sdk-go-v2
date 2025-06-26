@@ -11,9 +11,9 @@ import (
 	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
 	"github.com/figma/aws-sdk-go-v2/internal/awstesting/unit"
 	"github.com/figma/aws-sdk-go-v2/service/s3control"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 type s3controlEndpointTest struct {

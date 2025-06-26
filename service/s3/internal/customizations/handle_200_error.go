@@ -9,10 +9,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/aws/smithy-go"
-	smithyxml "github.com/aws/smithy-go/encoding/xml"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go"
+	smithyxml "github.com/figma/smithy-go/encoding/xml"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // HandleResponseErrorWith200Status check for S3 200 error response.

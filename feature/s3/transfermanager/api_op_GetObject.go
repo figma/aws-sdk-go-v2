@@ -13,7 +13,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/feature/s3/transfermanager/types"
 	"github.com/figma/aws-sdk-go-v2/service/s3"
 	s3types "github.com/figma/aws-sdk-go-v2/service/s3/types"
-	smithymiddleware "github.com/aws/smithy-go/middleware"
+	smithymiddleware "github.com/figma/smithy-go/middleware"
 )
 
 type errReadingBody struct {

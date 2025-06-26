@@ -10,9 +10,9 @@ import (
 	internalChecksum "github.com/figma/aws-sdk-go-v2/service/internal/checksum"
 	s3cust "github.com/figma/aws-sdk-go-v2/service/s3/internal/customizations"
 	"github.com/figma/aws-sdk-go-v2/service/s3/types"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/ptr"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Applies an Amazon S3 bucket policy to an Amazon S3 bucket.

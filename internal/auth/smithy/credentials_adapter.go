@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/figma/aws-sdk-go-v2/aws"
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/auth"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/auth"
 )
 
 // CredentialsAdapter adapts aws.Credentials to auth.Identity.

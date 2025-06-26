@@ -10,7 +10,7 @@ import (
 	"time"
 
 	elb "github.com/figma/aws-sdk-go-v2/service/elasticloadbalancing"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 
 	"github.com/figma/aws-sdk-go-v2/service/internal/integrationtest"
 )

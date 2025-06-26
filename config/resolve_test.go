@@ -17,7 +17,7 @@ import (
 	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds"
 	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
 	"github.com/figma/aws-sdk-go-v2/internal/awstesting/unit"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/smithy-go/logging"
 )
 
 func TestResolveCustomCABundle(t *testing.T) {

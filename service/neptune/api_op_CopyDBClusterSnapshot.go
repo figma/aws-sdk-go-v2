@@ -9,8 +9,8 @@ import (
 	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
 	presignedurlcust "github.com/figma/aws-sdk-go-v2/service/internal/presigned-url"
 	"github.com/figma/aws-sdk-go-v2/service/neptune/types"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // Copies a snapshot of a DB cluster.

@@ -9,16 +9,16 @@ import (
 	"time"
 
 	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
-	"github.com/aws/smithy-go"
+	"github.com/figma/smithy-go"
 
 	"github.com/figma/aws-sdk-go-v2/aws"
 	awsmiddle "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	"github.com/figma/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/metrics"
-	smithymiddle "github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/tracing"
-	"github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/metrics"
+	smithymiddle "github.com/figma/smithy-go/middleware"
+	"github.com/figma/smithy-go/tracing"
+	"github.com/figma/smithy-go/transport/http"
 )
 
 // RequestCloner is a function that can take an input request type and clone

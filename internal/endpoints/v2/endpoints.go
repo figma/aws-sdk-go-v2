@@ -2,7 +2,7 @@ package endpoints
 
 import (
 	"fmt"
-	"github.com/aws/smithy-go/logging"
+	"github.com/figma/smithy-go/logging"
 	"regexp"
 	"strings"
 

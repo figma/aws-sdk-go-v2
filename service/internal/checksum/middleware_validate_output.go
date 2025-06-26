@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/figma/smithy-go"
+	"github.com/figma/smithy-go/logging"
+	"github.com/figma/smithy-go/middleware"
+	smithyhttp "github.com/figma/smithy-go/transport/http"
 )
 
 // outputValidationAlgorithmsUsedKey is the metadata key for indexing the algorithms
