@@ -14,7 +14,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws/middleware"
 	"github.com/aws/aws-sdk-go-v2/internal/awsutil"
 	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
 	smithymiddleware "github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"

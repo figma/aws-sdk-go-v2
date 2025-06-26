@@ -8,7 +8,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared"
+	"github.com/figma/aws-sdk-go-v2/service/internal/s3shared"
 	"github.com/aws/aws-sdk-go-v2/service/s3control/types"
 	smithy "github.com/aws/smithy-go"
 	smithyxml "github.com/aws/smithy-go/encoding/xml"

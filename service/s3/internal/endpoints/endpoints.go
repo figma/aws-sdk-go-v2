@@ -5,7 +5,7 @@ package endpoints
 import (
 	"fmt"
 	"github.com/aws/aws-sdk-go-v2/aws"
-	endpoints "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2"
+	endpoints "github.com/figma/aws-sdk-go-v2/internal/endpoints/v2"
 	"github.com/aws/smithy-go/logging"
 	"regexp"
 	"strings"

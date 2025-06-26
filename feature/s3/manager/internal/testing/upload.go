@@ -10,7 +10,7 @@ import (
 	"sync"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
 )
 
 // UploadLoggingClient is a mock client that can be used to record and stub responses for testing the manager.Uploader.

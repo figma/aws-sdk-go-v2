@@ -15,13 +15,13 @@ import (
 	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
 	internalauth "github.com/aws/aws-sdk-go-v2/internal/auth"
 	internalauthsmithy "github.com/aws/aws-sdk-go-v2/internal/auth/smithy"
-	internalConfig "github.com/aws/aws-sdk-go-v2/internal/configsources"
+	internalConfig "github.com/figma/aws-sdk-go-v2/internal/configsources"
 	internalmiddleware "github.com/aws/aws-sdk-go-v2/internal/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/v4a"
-	acceptencodingcust "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding"
-	internalChecksum "github.com/aws/aws-sdk-go-v2/service/internal/checksum"
-	presignedurlcust "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url"
-	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared"
+	"github.com/figma/aws-sdk-go-v2/internal/v4a"
+	acceptencodingcust "github.com/figma/aws-sdk-go-v2/service/internal/accept-encoding"
+	internalChecksum "github.com/figma/aws-sdk-go-v2/service/internal/checksum"
+	presignedurlcust "github.com/figma/aws-sdk-go-v2/service/internal/presigned-url"
+	"github.com/figma/aws-sdk-go-v2/service/internal/s3shared"
 	s3sharedconfig "github.com/aws/aws-sdk-go-v2/service/internal/s3shared/config"
 	s3cust "github.com/aws/aws-sdk-go-v2/service/s3/internal/customizations"
 	smithy "github.com/aws/smithy-go"
@@ -115,7 +115,7 @@ func withOperationMetadata(ctx context.Context) metrics.RecordMetricOption {
 type operationMetricsKey struct{}
 
 func withOperationMetrics(parent context.Context, mp metrics.MeterProvider) (context.Context, error) {
-	meter := mp.Meter("github.com/aws/aws-sdk-go-v2/service/s3")
+	meter := mp.Meter("github.com/figma/aws-sdk-go-v2/service/s3")
 	om := &operationMetrics{}
 
 	var err error
@@ -166,7 +166,7 @@ func getOperationMetrics(ctx context.Context) *operationMetrics {
 }
 
 func operationTracer(p tracing.TracerProvider) tracing.Tracer {
-	return p.Tracer("github.com/aws/aws-sdk-go-v2/service/s3")
+	return p.Tracer("github.com/figma/aws-sdk-go-v2/service/s3")
 }
 
 // Client provides the API client to make operations call for Amazon Simple
@@ -299,7 +299,7 @@ func (c *Client) invokeOperation(
 	defer span.End()
 
 	handler := smithyhttp.NewClientHandlerWithOptions(options.HTTPClient, func(o *smithyhttp.ClientHandler) {
-		o.Meter = options.MeterProvider.Meter("github.com/aws/aws-sdk-go-v2/service/s3")
+		o.Meter = options.MeterProvider.Meter("github.com/figma/aws-sdk-go-v2/service/s3")
 	})
 	decorated := middleware.DecorateHandler(handler, stack)
 	result, metadata, err = decorated.Handle(ctx, params)
@@ -729,7 +729,7 @@ func resolveIdempotencyTokenProvider(o *Options) {
 func addRetry(stack *middleware.Stack, o Options) error {
 	attempt := retry.NewAttemptMiddleware(o.Retryer, smithyhttp.RequestCloner, func(m *retry.Attempt) {
 		m.LogAttempts = o.ClientLogMode.IsRetries()
-		m.OperationMeter = o.MeterProvider.Meter("github.com/aws/aws-sdk-go-v2/service/s3")
+		m.OperationMeter = o.MeterProvider.Meter("github.com/figma/aws-sdk-go-v2/service/s3")
 	})
 	if err := stack.Finalize.Insert(attempt, "ResolveAuthScheme", middleware.Before); err != nil {
 		return err
