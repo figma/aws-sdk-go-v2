@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	internalConfig "github.com/aws/aws-sdk-go-v2/internal/configsources"
+	internalConfig "github.com/figma/aws-sdk-go-v2/internal/configsources"
 	"github.com/aws/aws-sdk-go-v2/internal/endpoints"
 	"github.com/aws/aws-sdk-go-v2/internal/endpoints/awsrulesfn"
 	internalendpoints "github.com/aws/aws-sdk-go-v2/service/appsync/internal/endpoints"
