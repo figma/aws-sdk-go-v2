@@ -3,7 +3,7 @@ module github.com/aws/aws-sdk-go-v2/example/service/dynamodb/listItems
 go 1.22
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.36.5
+	github.com/aws/aws-sdk-go-v2 v1.36.5-alpha.0
 	github.com/aws/aws-sdk-go-v2/config v1.29.17
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.19.3
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.43.4
