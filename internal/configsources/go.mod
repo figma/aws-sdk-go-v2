@@ -2,8 +2,11 @@ module github.com/aws/aws-sdk-go-v2/internal/configsources
 
 go 1.22
 
-require github.com/aws/aws-sdk-go-v2 v1.36.5
+require github.com/aws/aws-sdk-go-v2 v1.36.5-alpha.0
 
-require github.com/aws/smithy-go v1.22.4 // indirect
+require (
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.36-alpha.0
+	github.com/aws/smithy-go v1.22.4 // indirect
+)
 
 replace github.com/aws/aws-sdk-go-v2 => ../../

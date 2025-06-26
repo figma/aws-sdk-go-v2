@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream"
+	"github.com/figma/aws-sdk-go-v2/aws/protocol/eventstream"
 	"github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi"
 	"github.com/aws/aws-sdk-go-v2/service/qbusiness/document"
 	internaldocument "github.com/aws/aws-sdk-go-v2/service/qbusiness/internal/document"
