@@ -1,13 +1,13 @@
-module github.com/aws/aws-sdk-go-v2/service/internal/checksum
+module github.com/figma/aws-sdk-go-v2/service/internal/checksum
 
 go 1.22
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.36.5
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.17
+	github.com/figma/aws-sdk-go-v2 v1.36.5-newtest.18
+	github.com/figma/aws-sdk-go-v2/service/internal/presigned-url v1.12.17-newtest.18
 	github.com/aws/smithy-go v1.22.4
 )
 
-replace github.com/aws/aws-sdk-go-v2 => ../../../
+replace github.com/figma/aws-sdk-go-v2 => ../../../
 
-replace github.com/aws/aws-sdk-go-v2/service/internal/presigned-url => ../../../service/internal/presigned-url/
+replace github.com/figma/aws-sdk-go-v2/service/internal/presigned-url => ../../../service/internal/presigned-url/
