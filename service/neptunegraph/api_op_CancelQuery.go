@@ -5,7 +5,7 @@ package neptunegraph
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 	"github.com/aws/smithy-go/ptr"

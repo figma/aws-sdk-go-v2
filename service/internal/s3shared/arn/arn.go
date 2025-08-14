@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws/arn"
+	"github.com/figma/aws-sdk-go-v2/aws/arn"
 )
 
 var supportedServiceARN = []string{

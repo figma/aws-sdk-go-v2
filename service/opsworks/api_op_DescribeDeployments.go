@@ -5,8 +5,8 @@ package opsworks
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/opsworks/types"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/opsworks/types"
 	"github.com/aws/smithy-go/middleware"
 	smithytime "github.com/aws/smithy-go/time"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
