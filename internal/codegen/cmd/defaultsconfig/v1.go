@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	codegen "github.com/aws/aws-sdk-go-v2/internal/codegen/defaults"
+	codegen "github.com/figma/aws-sdk-go-v2/internal/codegen/defaults"
 )
 
 func renderRetryMode(context *generationContext, base interface{}, modifier Modifier) (string, error) {
