@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/internal/sync/singleflight"
+	"github.com/figma/aws-sdk-go-v2/internal/sync/singleflight"
 )
 
 var timeNow = time.Now
