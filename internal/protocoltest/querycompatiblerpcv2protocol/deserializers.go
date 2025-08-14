@@ -5,7 +5,7 @@ package querycompatiblerpcv2protocol
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/internal/protocoltest/querycompatiblerpcv2protocol/types"
+	"github.com/figma/aws-sdk-go-v2/internal/protocoltest/querycompatiblerpcv2protocol/types"
 	smithy "github.com/aws/smithy-go"
 	smithycbor "github.com/aws/smithy-go/encoding/cbor"
 	"github.com/aws/smithy-go/middleware"
