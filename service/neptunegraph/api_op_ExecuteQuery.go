@@ -5,9 +5,9 @@ package neptunegraph
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/service/neptunegraph/document"
-	"github.com/aws/aws-sdk-go-v2/service/neptunegraph/types"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/service/neptunegraph/document"
+	"github.com/figma/aws-sdk-go-v2/service/neptunegraph/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 	"github.com/aws/smithy-go/ptr"

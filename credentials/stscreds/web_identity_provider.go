@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/retry"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/aws-sdk-go-v2/service/sts"
-	"github.com/aws/aws-sdk-go-v2/service/sts/types"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws/retry"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
+	"github.com/figma/aws-sdk-go-v2/service/sts"
+	"github.com/figma/aws-sdk-go-v2/service/sts/types"
 )
 
 var invalidIdentityTokenExceptionCode = (&types.InvalidIdentityTokenException{}).ErrorCode()
