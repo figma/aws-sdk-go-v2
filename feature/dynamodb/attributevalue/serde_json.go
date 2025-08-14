@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
+	"github.com/figma/aws-sdk-go-v2/service/dynamodb/types"
 	smithyjson "github.com/aws/smithy-go/encoding/json"
 )
 
