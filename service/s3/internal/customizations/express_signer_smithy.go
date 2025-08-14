@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	internalauthsmithy "github.com/aws/aws-sdk-go-v2/internal/auth/smithy"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	v4 "github.com/figma/aws-sdk-go-v2/aws/signer/v4"
+	internalauthsmithy "github.com/figma/aws-sdk-go-v2/internal/auth/smithy"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/auth"
 	"github.com/aws/smithy-go/logging"
