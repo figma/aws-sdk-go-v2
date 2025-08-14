@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
 	smithyendpoints "github.com/aws/smithy-go/endpoints"
 )
 
