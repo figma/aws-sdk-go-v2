@@ -5,7 +5,7 @@ package gameliftstreams
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/gameliftstreams/types"
+	"github.com/figma/aws-sdk-go-v2/service/gameliftstreams/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )
