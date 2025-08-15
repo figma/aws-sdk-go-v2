@@ -7,16 +7,16 @@ import (
 	cryptorand "crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/defaults"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/retry"
-	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
-	internalauth "github.com/aws/aws-sdk-go-v2/internal/auth"
-	internalauthsmithy "github.com/aws/aws-sdk-go-v2/internal/auth/smithy"
-	internalConfig "github.com/aws/aws-sdk-go-v2/internal/configsources"
-	internalmiddleware "github.com/aws/aws-sdk-go-v2/internal/middleware"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws/defaults"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/aws/retry"
+	"github.com/figma/aws-sdk-go-v2/aws/signer/v4"
+	awshttp "github.com/figma/aws-sdk-go-v2/aws/transport/http"
+	internalauth "github.com/figma/aws-sdk-go-v2/internal/auth"
+	internalauthsmithy "github.com/figma/aws-sdk-go-v2/internal/auth/smithy"
+	internalConfig "github.com/figma/aws-sdk-go-v2/internal/configsources"
+	internalmiddleware "github.com/figma/aws-sdk-go-v2/internal/middleware"
 	smithy "github.com/aws/smithy-go"
 	smithyauth "github.com/aws/smithy-go/auth"
 	smithydocument "github.com/aws/smithy-go/document"
@@ -108,7 +108,7 @@ func withOperationMetadata(ctx context.Context) metrics.RecordMetricOption {
 type operationMetricsKey struct{}
 
 func withOperationMetrics(parent context.Context, mp metrics.MeterProvider) (context.Context, error) {
-	meter := mp.Meter("github.com/aws/aws-sdk-go-v2/service/route53recoverycontrolconfig")
+	meter := mp.Meter("github.com/figma/aws-sdk-go-v2/service/route53recoverycontrolconfig")
 	om := &operationMetrics{}
 
 	var err error
@@ -159,7 +159,7 @@ func getOperationMetrics(ctx context.Context) *operationMetrics {
 }
 
 func operationTracer(p tracing.TracerProvider) tracing.Tracer {
-	return p.Tracer("github.com/aws/aws-sdk-go-v2/service/route53recoverycontrolconfig")
+	return p.Tracer("github.com/figma/aws-sdk-go-v2/service/route53recoverycontrolconfig")
 }
 
 // Client provides the API client to make operations call for AWS Route53 Recovery
@@ -280,7 +280,7 @@ func (c *Client) invokeOperation(
 	defer span.End()
 
 	handler := smithyhttp.NewClientHandlerWithOptions(options.HTTPClient, func(o *smithyhttp.ClientHandler) {
-		o.Meter = options.MeterProvider.Meter("github.com/aws/aws-sdk-go-v2/service/route53recoverycontrolconfig")
+		o.Meter = options.MeterProvider.Meter("github.com/figma/aws-sdk-go-v2/service/route53recoverycontrolconfig")
 	})
 	decorated := middleware.DecorateHandler(handler, stack)
 	result, metadata, err = decorated.Handle(ctx, params)
@@ -699,7 +699,7 @@ func resolveIdempotencyTokenProvider(o *Options) {
 func addRetry(stack *middleware.Stack, o Options) error {
 	attempt := retry.NewAttemptMiddleware(o.Retryer, smithyhttp.RequestCloner, func(m *retry.Attempt) {
 		m.LogAttempts = o.ClientLogMode.IsRetries()
-		m.OperationMeter = o.MeterProvider.Meter("github.com/aws/aws-sdk-go-v2/service/route53recoverycontrolconfig")
+		m.OperationMeter = o.MeterProvider.Meter("github.com/figma/aws-sdk-go-v2/service/route53recoverycontrolconfig")
 	})
 	if err := stack.Finalize.Insert(attempt, "ResolveAuthScheme", middleware.Before); err != nil {
 		return err
