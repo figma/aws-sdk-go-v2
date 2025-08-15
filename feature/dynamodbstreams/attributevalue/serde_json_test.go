@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/service/dynamodbstreams/types"
+	"github.com/figma/aws-sdk-go-v2/service/dynamodbstreams/types"
 )
 
 func TestUnmarshalJSON(t *testing.T) {
