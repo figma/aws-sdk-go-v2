@@ -3,7 +3,7 @@
 package types
 
 import (
-	"github.com/aws/aws-sdk-go-v2/service/identitystore/document"
+	"github.com/figma/aws-sdk-go-v2/service/identitystore/document"
 	smithydocument "github.com/aws/smithy-go/document"
 )
 
