@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
+	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
 	"github.com/aws/smithy-go"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsmiddle "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	awsmiddle "github.com/figma/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go/logging"
 	"github.com/aws/smithy-go/metrics"
 	smithymiddle "github.com/aws/smithy-go/middleware"
