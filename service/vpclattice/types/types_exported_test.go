@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/vpclattice/types"
+	"github.com/figma/aws-sdk-go-v2/service/vpclattice/types"
 )
 
 func ExampleHeaderMatchType_outputUsage() {
