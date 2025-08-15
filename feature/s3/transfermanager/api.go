@@ -3,7 +3,7 @@ package transfermanager
 import (
 	"context"
 
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
 )
 
 // S3APIClient defines an interface doing S3 client side operations for transfer manager

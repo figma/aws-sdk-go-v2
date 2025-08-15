@@ -3,8 +3,8 @@
 package codecatalyst
 
 import (
-	"github.com/aws/aws-sdk-go-v2/aws"
-	internalauthsmithy "github.com/aws/aws-sdk-go-v2/internal/auth/smithy"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	internalauthsmithy "github.com/figma/aws-sdk-go-v2/internal/auth/smithy"
 	smithyauth "github.com/aws/smithy-go/auth"
 	"github.com/aws/smithy-go/auth/bearer"
 	"github.com/aws/smithy-go/logging"

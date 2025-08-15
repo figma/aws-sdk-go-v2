@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

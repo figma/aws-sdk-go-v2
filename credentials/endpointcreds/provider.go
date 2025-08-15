@@ -38,8 +38,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/credentials/endpointcreds/internal/client"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/credentials/endpointcreds/internal/client"
 	"github.com/aws/smithy-go/middleware"
 )
 
