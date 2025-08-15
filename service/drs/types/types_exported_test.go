@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/drs/types"
+	"github.com/figma/aws-sdk-go-v2/service/drs/types"
 )
 
 func ExampleEventResourceData_outputUsage() {

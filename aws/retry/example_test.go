@@ -6,11 +6,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/retry"
-	config "github.com/aws/aws-sdk-go-v2/aws/retry/internal/mock"
-	s3 "github.com/aws/aws-sdk-go-v2/aws/retry/internal/mock"
-	types "github.com/aws/aws-sdk-go-v2/aws/retry/internal/mock"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws/retry"
+	config "github.com/figma/aws-sdk-go-v2/aws/retry/internal/mock"
+	s3 "github.com/figma/aws-sdk-go-v2/aws/retry/internal/mock"
+	types "github.com/figma/aws-sdk-go-v2/aws/retry/internal/mock"
 )
 
 func Example_overrideForAllClients() {

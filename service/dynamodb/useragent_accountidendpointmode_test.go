@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	awsmiddleware "github.com/figma/aws-sdk-go-v2/aws/middleware"
 )
 
 type captureUserAgentFeatures struct {
