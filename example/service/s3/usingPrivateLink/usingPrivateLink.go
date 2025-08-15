@@ -8,11 +8,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/arn"
-	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
-	"github.com/aws/aws-sdk-go-v2/service/s3control"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws/arn"
+	"github.com/figma/aws-sdk-go-v2/config"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
+	"github.com/figma/aws-sdk-go-v2/service/s3control"
 )
 
 const (
