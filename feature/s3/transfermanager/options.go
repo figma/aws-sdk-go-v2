@@ -1,7 +1,7 @@
 package transfermanager
 
 import (
-	"github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager/types"
+	"github.com/figma/aws-sdk-go-v2/feature/s3/transfermanager/types"
 )
 
 // Options provides params needed for transfer api calls
