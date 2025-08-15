@@ -3,7 +3,7 @@
 package types
 
 import (
-	"github.com/aws/aws-sdk-go-v2/internal/protocoltest/jsonrpc10/document"
+	"github.com/figma/aws-sdk-go-v2/internal/protocoltest/jsonrpc10/document"
 	smithydocument "github.com/aws/smithy-go/document"
 	"time"
 )
