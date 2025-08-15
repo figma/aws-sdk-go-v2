@@ -5,7 +5,7 @@ package query
 import (
 	"bytes"
 	"context"
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/aws/smithy-go/middleware"
 	smithyrand "github.com/aws/smithy-go/rand"
 	smithytesting "github.com/aws/smithy-go/testing"
