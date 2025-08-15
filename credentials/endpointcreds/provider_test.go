@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/credentials/endpointcreds"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/figma/aws-sdk-go-v2/credentials/endpointcreds"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go"
 )
 

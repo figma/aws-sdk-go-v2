@@ -4,8 +4,8 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/bedrockagentcore/document"
-	"github.com/aws/aws-sdk-go-v2/service/bedrockagentcore/types"
+	"github.com/figma/aws-sdk-go-v2/service/bedrockagentcore/document"
+	"github.com/figma/aws-sdk-go-v2/service/bedrockagentcore/types"
 )
 
 func ExampleCodeInterpreterStreamOutput_outputUsage() {
