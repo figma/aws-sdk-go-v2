@@ -5,7 +5,7 @@ package oam
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/oam/types"
+	"github.com/figma/aws-sdk-go-v2/service/oam/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )
