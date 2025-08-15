@@ -4,8 +4,8 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/bedrockagentruntime/document"
-	"github.com/aws/aws-sdk-go-v2/service/bedrockagentruntime/types"
+	"github.com/figma/aws-sdk-go-v2/service/bedrockagentruntime/document"
+	"github.com/figma/aws-sdk-go-v2/service/bedrockagentruntime/types"
 )
 
 func ExampleActionGroupExecutor_outputUsage() {
