@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/pcaconnectorscep/types"
+	"github.com/figma/aws-sdk-go-v2/service/pcaconnectorscep/types"
 )
 
 func ExampleMobileDeviceManagement_outputUsage() {
