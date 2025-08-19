@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	v4Internal "github.com/aws/aws-sdk-go-v2/aws/signer/internal/v4"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	v4Internal "github.com/figma/aws-sdk-go-v2/aws/signer/internal/v4"
 )
 
 var testCredentials = aws.Credentials{AccessKeyID: "AKID", SecretAccessKey: "SECRET", SessionToken: "SESSION"}

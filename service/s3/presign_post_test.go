@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting/unit"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/internal/awstesting/unit"
+	"github.com/figma/aws-sdk-go-v2/internal/sdk"
 )
 
 func TestPresignPutObject(t *testing.T) {

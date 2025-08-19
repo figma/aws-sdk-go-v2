@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/workspacesweb/types"
+	"github.com/figma/aws-sdk-go-v2/service/workspacesweb/types"
 )
 
 func ExampleEventFilter_outputUsage() {
