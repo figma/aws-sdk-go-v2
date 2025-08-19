@@ -2,8 +2,8 @@ package config
 
 import (
 	"context"
-	"github.com/aws/aws-sdk-go-v2/credentials/stscreds"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
+	"github.com/figma/aws-sdk-go-v2/credentials/stscreds"
+	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
 	"os"
 	"path/filepath"
 	"runtime"

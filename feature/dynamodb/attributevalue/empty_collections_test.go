@@ -3,8 +3,8 @@ package attributevalue
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/service/dynamodb/types"
 )
 
 type testEmptyCollectionsNumericalScalars struct {

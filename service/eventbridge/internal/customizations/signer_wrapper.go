@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/aws/aws-sdk-go-v2/internal/v4a"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	v4 "github.com/figma/aws-sdk-go-v2/aws/signer/v4"
+	"github.com/figma/aws-sdk-go-v2/internal/v4a"
 	"github.com/aws/smithy-go/middleware"
 )
 

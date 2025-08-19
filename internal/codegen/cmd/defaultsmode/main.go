@@ -13,7 +13,7 @@ import (
 	"sort"
 	"text/template"
 
-	codegen "github.com/aws/aws-sdk-go-v2/internal/codegen/defaults"
+	codegen "github.com/figma/aws-sdk-go-v2/internal/codegen/defaults"
 )
 
 var jsonFile string
