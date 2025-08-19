@@ -3,7 +3,7 @@
 package types
 
 import (
-	"github.com/aws/aws-sdk-go-v2/service/s3vectors/document"
+	"github.com/figma/aws-sdk-go-v2/service/s3vectors/document"
 	smithydocument "github.com/aws/smithy-go/document"
 	"time"
 )
