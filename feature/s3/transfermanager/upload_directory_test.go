@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	s3testing "github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager/internal/testing"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	s3testing "github.com/figma/aws-sdk-go-v2/feature/s3/transfermanager/internal/testing"
+	"github.com/figma/aws-sdk-go-v2/service/s3"
 )
 
 type filenameFilter struct {
