@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/retry"
-	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds/internal/config"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws/retry"
+	"github.com/figma/aws-sdk-go-v2/feature/ec2/imds/internal/config"
 
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
+	"github.com/figma/aws-sdk-go-v2/internal/awstesting"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )
 
