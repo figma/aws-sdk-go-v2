@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/aws"
 	"github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/logging"
 	"net/http"
