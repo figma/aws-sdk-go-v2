@@ -5,7 +5,7 @@ package awsrestjson
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/internal/protocoltest/awsrestjson/types"
+	"github.com/figma/aws-sdk-go-v2/internal/protocoltest/awsrestjson/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )
