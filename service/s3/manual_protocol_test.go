@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/s3/types"
+	"github.com/figma/aws-sdk-go-v2/aws"
+	"github.com/figma/aws-sdk-go-v2/service/s3/types"
 )
 
 // This file replicates the tests in https://github.com/smithy-lang/smithy/blob/main/smithy-aws-protocol-tests/model/restXml/services/s3.smithy,
