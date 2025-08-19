@@ -3,7 +3,7 @@
 package types
 
 import (
-	"github.com/aws/aws-sdk-go-v2/service/bedrockagentcore/document"
+	"github.com/figma/aws-sdk-go-v2/service/bedrockagentcore/document"
 	smithydocument "github.com/aws/smithy-go/document"
 	"time"
 )
