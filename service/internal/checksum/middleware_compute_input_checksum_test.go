@@ -16,8 +16,8 @@ import (
 	"testing"
 	"testing/iotest"
 
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
+	v4 "github.com/figma/aws-sdk-go-v2/aws/signer/v4"
+	internalcontext "github.com/figma/aws-sdk-go-v2/internal/context"
 	"github.com/aws/smithy-go/logging"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
